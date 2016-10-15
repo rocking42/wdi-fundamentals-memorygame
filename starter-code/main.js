@@ -1,6 +1,7 @@
   
 $(document).ready(function() {
   var counter = 0;
+  var score = 0
 
   function remove() {
     $("div#one, div#two, div#three, div#four").removeClass('ace queen');
@@ -41,6 +42,8 @@ $(document).ready(function() {
         if(c === d) {
           alert("you won");
             remove();
+            score += 1;
+            $('div#score').text('Your score: ' + score);
         }
       }
   }
