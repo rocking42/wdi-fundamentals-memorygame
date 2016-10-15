@@ -1,3 +1,123 @@
-/* This is a multi-line
-comment. Add your CSS code
-from Unit 1 - 5 below  */
+html, body {
+	margin:0 auto;
+	padding: 0;
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+}
+
+.container {
+	max-width: 940px;
+	margin:0 auto;
+}
+
+
+.header{
+	padding:30px 30 0px 30;
+	background: rgb(187,0,41);
+}
+
+.header h3 {
+	margin-top: 0;
+}
+
+.nav {
+	text-align:right;
+}
+
+.nav-tabs li {
+	display:inline-block;
+	width:100px;
+	margin:0 auto;
+}
+
+.jumbotron {
+	background: url("https://img-s3.onedio.com/id-57d46f7ea25d45fd5b378b2e/rev-0/raw/s-a4c844af7970c32c68e61e2561c0913233500818.jpg") no-repeat center center;
+	height:600;
+	background-size: cover;
+
+}
+
+.jumbotron {
+	color:white;
+}
+
+h1 {
+	color:white;
+}
+
+.large{
+	color: #726dff;
+}
+
+h2 {
+	color:gold;
+}
+
+.board{
+	height:50%;
+	width:50%;
+	display:inline-block;
+	float: left;
+
+
+	
+}
+
+.card{
+	height:200px;
+	width:150px;
+	border:7px solid black;
+	background: #e6ff81;
+	border-radius: 10px;
+	cursor: pointer;
+	margin:8%;
+	display:none;	
+}
+
+.card:hover{
+	background-color: green;
+}
+
+.ace{
+	background: url("http://sweetclipart.com/multisite/sweetclipart/files/ace_of_spades.png") no-repeat center center;
+	background-size: cover;
+}
+
+.queen{
+	background: url("http://www.madore.org/~david/images/cards/english/queen-clubs.png")no-repeat center center;
+	background-size: cover;
+}
+
+#hide {
+	display:none;
+}
+
+.footer{
+	text-align: left;
+	background: rgb(187,0,41);
+	padding:10px 0 5px 0;
+	margin:10px 0 0 0;
+	clear: both;
+}
+
+.name {
+	font-weight: 600;
+	color: rgb(122, 235, 157);
+}
+
+@media(max-width: 800px){
+
+
+.nav {
+	text-align:center;
+}
+
+.nav-tabs li {
+	float:none;
+	display:inline-block;
+	width:100%;
+	padding:0 50px;
+	margin:0 auto;
+}
+
+}
